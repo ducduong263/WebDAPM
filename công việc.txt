@@ -1,0 +1,42 @@
+user:
+-Đăng kí
+-Đăng nhập
+-Đổi mật khẩu
+-Quên mật khẩu
+-Đăng xuất
+-Tìm kiếm: theo tên, theo danh mục, theo giá
+-Thêm sản phẩm vào giỏ:-> cập nhật giỏ hàng, thanh toán, áp dụng mã giảm giá
+-Đánh giá sản phẩm
+-Xem lịch sử mua hàng
+-Cập nhật thông tin tài khoản
+-Cập nhật địa chỉ
+
+admin:
+-Quản lý sản phẩm: 
+	+Sản phẩm:Xem Thêm xóa sửa
+	+Thương hiệu: //
+	+Danh mục: //
+	+Đánh giá sản phẩm(trả lời đánh giá của khách hàng)
+	+Chương trình giảm giá: //
+-Quản lý đặt hàng:
+	+Danh sách đơn hàng:Thay đổi trạng thái đơn hàng, Xem chi tiết đơn hàng, hủy đơn
+-Quản lý tài khoản: 
+	+Thay đổi phân quyền
+	+Xem chi tiết
+	+Vô hiệu hóa tài khoản
+
+
+****************
+fix chức năng quên mật khẩu( đã gửi dc mail nhưng khi nhập mk mới thì k cập nhật xuống database)
+fix hiện số lượng sp trong giỏ hàng trên icon giỏ hàng 
+fix hàm PreviewCart() trong CartController.cs:Hiện tại khi thêm sp vào giỏ không hiện liền mà phải rs mới hiện
+thêm chức năng thay đổi được chương trình giảm giá trong chỉnh sửa sản phẩm
+thêm hiện giá tiền của sản phẩm sau khi đang có chương trình giảm giá
+Thêm quản lý vận phương thức vận chuyển
+Cho phép thay đổi phương thức vận chuyển trong trang thanh toán
+Cho phép thay đổi địa giao hàng trong trang thanh toán = địa chỉ đã lưu(không cần phải vô sổ địa chỉ đổi thành mặc định nữa)
+Thêm quản lý phương thức thanh toán
+Thêm chức năng thanh toán online (vd:momo QR)
+Nếu được có thể thêm điều kiện cho mã giảm giá ví dụ đơn hàng trên bao nhiêu tiền mới dc dùng
+Thêm chức năng liên hệ 
+Thêm chức năng xóa bình luận
