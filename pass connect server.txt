@@ -1,0 +1,3 @@
+server name: tcp:dbdapm.database.windows.net,1433
+login: dbdapm
+pass: 12345da#
