@@ -41,7 +41,7 @@ email nvarchar(100) not null,
 acc_name nvarchar(50) not null,
 phone varchar(10) not null,
 avatar text null,
-role int not null)
+role_id int not null)
 go
 create table AccountAddress(
 acc_add_id int identity(1,1) not null primary key,
@@ -109,3 +109,7 @@ content nvarchar(max) null,
 [status] nvarchar(1) null,
 feedback_id int not null,
 acc_id int not null)
+go
+create table [Role](
+role_id int identity(1,1) not null primary key,
+role_name nvarchar(50) not null)
